@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: #ffa07a;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+
+    gap:50px;
+    font-size: 30px;
+    list-style-type: none;
+    
+    text-transform: uppercase;
+
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #A82C15;
+}
+.suport-carrinho {
+    display: flex;
+    gap: 40px;
+}
