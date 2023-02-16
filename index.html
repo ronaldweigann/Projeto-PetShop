@@ -1,98 +1,133 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
     <title>PetShop</title>
 </head>
 <body>
-    <address>
+    <address class="contato">
         <h6><img src="svg/telefone.svg" alt="Telefone">(99)9 9999-9999</h6>
         <h6><img src="svg/email.svg" alt="E-mail">email@email.com.br</h6>
         <h6><img src="svg/local.svg" alt="CEP">45820-320</h6>
     </address>
-    <header>
-        <img src="svg/logo.svg" alt="Logo de Cãozinho">
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-            <img src="svg/suport.svg" alt="Chat de Suporte">
-            <img src="svg/carrinho.svg" alt="Carrinho de Compras">
-        </nav>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="svg/logo.svg" alt="Logo de Cãozinho">
+        </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+
+        <div class="suport-carrinho">
+                <img  src="svg/suport.svg" alt="Chat de Suporte">
+                <img src="svg/carrinho.svg" alt="Carrinho de Compras">
+            
+        </div>
     </header>
 
     <main>
-        <h1>20% OFF</h1>
+        <div class="conteudo principal">
+            <h1>20% OFF</h1>
 
-        <h2>Cuidando do seu pet</h2>
-        <p>
+            <h2>Cuidando do seu pet</h2>
+            <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo temporibus eum iure cupiditate unde minima dolor eos sit, nobis, consequatur fugiat reiciendis placeat. Quibusdam temporibus corporis suscipit tempore fugit non.
-        </p>
-        <button>Cuidar Agora</button>
-        <img src="imagens/dogPrincipal.png" alt="Cochorro com Roupinha de Unicornio">
-        <img src="svg/colerinha.svg" alt="Colerinha com Estrelinha">
+            </p>
+            <button>Cuidar Agora</button>
+        </div>
+        <div class="imagens principais">
+            <img src="imagens/dogPrincipal.png" alt="Cochorro com Roupinha de Unicornio">
+            <img src="svg/colerinha.svg" alt="Colerinha com Estrelinha">
+        </div>
     </main>
 
     <article>
-        <h1>Como Chegar</h1>
-        <h2>Rua Fulano de Tal, 202</h2>
-        <h2>Campo Grande - MS</h2>
-        <h2>45820-320</h2>
+        <div class="localizacao">
+            <h1>Como Chegar</h1>
+            <h2>Rua Fulano de Tal, 202</h2>
+            <h2>Campo Grande - MS</h2>
+            <h2>45820-320</h2>
+        </div>
     </article>
 
     <article>
-        <img src="imagens/image 1.png" alt="Cachorro sendo Tozado">
-        <img src="imagens/image  2.png" alt="Cachorro de Oculos de Coração">
-        <img src="imagens/image 3.png" alt="Mulher Secando Cachorro">
+        <div class="imagens dos dogs">
+            <img src="imagens/image 1.png" alt="Cachorro sendo Tozado">
+            <img src="imagens/image  2.png" alt="Cachorro de Oculos de Coração">
+            <img src="imagens/image 3.png" alt="Mulher Secando Cachorro">
+        </div>
 
-        <h1>Titulo 1</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam blanditiis, labore perferendis ratione sunt harum earum cum vero asperiores minima doloremque! Quam iure eos aut, vero.
-        </p>
-        <button>Saiba Mais</button>
+        <div class="decricao 1">
+            <h1>Titulo 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam blanditiis, labore perferendis ratione sunt harum earum cum vero asperiores minima doloremque! Quam iure eos aut, vero.
+            </p>
+            <button>Saiba Mais</button>
+        </div>
 
-        <h1>Titulo 2</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam blanditiis, labore perferendis ratione sunt harum earum cum vero asperiores minima doloremque! Quam iure eos aut, vero.
-        </p>
-        <button>Saiba Mais</button>
+        <div class="descricao 2">
+            <h1>Titulo 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam blanditiis, labore perferendis ratione sunt harum earum cum vero asperiores minima doloremque! Quam iure eos aut, vero.
+            </p>
+            <button>Saiba Mais</button>
+        </div>
 
-        <h1>Titulo 3</h1>
-        <p>
+        <div class="descricao 3">
+            <h1>Titulo 3</h1>
+            <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi incidunt placeat ipsam debitis facilis. Quam vero sit eius, nam placeat deleniti ut minus suscipit ab eum alias velit quasi nostrum?
-        </p>
+            </p>
+        </div>
     </article>
 
     <section>
-        <img src="imagens/dogSobre.png" alt="Cachorro Feliz">
-        <h1>Sobre Nossos Números</h1>
-        <p>
+        <div class="dog sobre">
+            <img src="imagens/dogSobre.png" alt="Cachorro Feliz">
+        </div>
+        <div class="sobre nossos numeros">
+            <h1>Sobre Nossos Números</h1>
+            <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga aspernatur dolores autem illum, repudiandae odit, sint esse libero magni impedit adipisci nulla iusto itaque ratione labore voluptates ipsum maiores animi!
-        </p>
-
-        <img src="imagens/dog-curioso 1.png" alt="Cachorro curioso">
-        <h2>350 Dogs Amados</h2>
-        <h2>198 Dogs Resgatados das Ruas</h2>
-        <h2>98 Dogs Adotados</h2>
+            </p>
+        </div>
+        <div class="nossos numeros">
+            <img src="imagens/dog-curioso 1.png" alt="Cachorro curioso">
+            <h2>350 Dogs Amados</h2>
+            <h2>198 Dogs Resgatados das Ruas</h2>
+            <h2>98 Dogs Adotados</h2>
+        </div>
     </section>
 
     <article>
-        <h1>Feedback dos nossos clientes</h1>
-        <img src="imagens/Rectangle 2.png" alt="Card de Feedbacks">
-        <p>
+        <div class="slaids de feedback">
+            <h1>Feedback dos nossos clientes</h1>
+            <img src="imagens/Rectangle 2.png" alt="Card de Feedbacks">
+            <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, accusamus unde asperiores eligendi assumenda earum dolore ex ducimus minus ratione alias, corrupti possimus culpa molestiae recusandae repellendus! Repellat, facilis sunt?
-        </p>
+            </p>
 
-        <img src="imagens/Rectangle 2.png" alt="Card de Feedbacks">
-        <p>
+            <img src="imagens/Rectangle 2.png" alt="Card de Feedbacks">
+            <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed dolor ullam corporis, earum fugiat quae obcaecati quasi sapiente, nisi voluptatum vel. Hic, doloribus iste numquam quisquam in eligendi alias nostrum!
-        </p>
+            </p>
+        </div>
     </article>
 
-    <footer>
+    <footer class="contato">
         <h6><img src="svg/telefone.svg" alt="Telefone">(99)9 9999-9999</h6>
         <h6><img src="svg/email.svg" alt="E-mail">email@email.com.br</h6>
         <h6><img src="svg/local.svg" alt="CEP">45820-320</h6>
